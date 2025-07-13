@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Galleria Fotografica + Musica</title>
+</head>
+<body style="text-align:center; background:#000; color:#fff; font-family:sans-serif;">
+
+  <h1></h1>
+  <p></p>
+
+  <button onclick="apriGalleria()" style="padding: 10px 20px; font-size: 16px;">Premi per vedere le foto</button>
+
+  <audio id="musica" src="Great Fairys Fountain Theme - The Legend Of Zelda 25th Anniversary Soundtrack.mp3" loop></audio>
+
+  <script>
+    function apriGalleria() {
+      window.open("https://lightroom.adobe.com/shares/05a5132a8fda4068b3cec901eabaeba5", "_blank");
+      document.getElementById("musica").play();
+    }
+  </script>
+
+</body>
+</html>
